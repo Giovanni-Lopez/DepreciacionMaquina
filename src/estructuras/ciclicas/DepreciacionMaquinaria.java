@@ -67,7 +67,7 @@ public class DepreciacionMaquinaria {
             double depreciacion = costoMaquinaria * factor;
             
             System.out.println("Año : " + formato.format(años));
-            System.out.println("Factor: " + formato.format(factor));
+            System.out.println("Factor: " + formato.format(factor * 100) + "%");
             System.out.println("Depreciacion: " + formato.format(depreciacion));
             System.out.println("===================================");           
         }
