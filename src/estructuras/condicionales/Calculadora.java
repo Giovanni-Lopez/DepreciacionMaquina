@@ -78,7 +78,6 @@ public class Calculadora {
                 }else{
                 resultado = cantidad1 / cantidad2;
                 }
-
                 break;
             default:
                 System.out.println("Operacion erronea!!");
