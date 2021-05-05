@@ -27,7 +27,7 @@ public class ventaEquipo {
         try {
             Scanner leer = new Scanner(System.in);
             
-            System.out.println("Ingrese valor de vente: $");
+            System.out.println("Ingrese valor de venta: $");
             double valorDeVenta = Double.parseDouble(leer.nextLine());
             
             calcularSalarioLiquido(valorDeVenta);
