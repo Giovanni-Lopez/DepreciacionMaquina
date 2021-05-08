@@ -78,7 +78,7 @@ public class BilletesYMonedas {
         */
             
         double billetes_de_10, billetes_de_20, billetes_de_5 , billete_de_1;
-        double moneda_de_25, moneda_de_10, moneda_de_5, monedas_de_1, moneda_001;
+        double moneda_de_25, moneda_de_10, moneda_de_5, monedas_de_1, moneda01;
  
         monedas_de_1 = monto.precioPorLlamada(monto.getMinutos());
         
@@ -103,7 +103,7 @@ public class BilletesYMonedas {
         moneda_de_5 = (monedas_de_1 - monedas_de_1 % 0.05)/0.05;
         monedas_de_1 = monedas_de_1 % 0.05;
         
-        moneda_001 = (monedas_de_1 - monedas_de_1 % 0.01)/0.01;
+        moneda01 = (monedas_de_1 - monedas_de_1 % 0.01)/0.01;
         monedas_de_1 = monedas_de_1 % 0.01;
         
         System.out.println("Valor de billetes de 10 ------>" + (int)billetes_de_10);
@@ -121,7 +121,7 @@ public class BilletesYMonedas {
         
         System.out.println("Valor de monedas de 0.05 centavos ------>" + (int)moneda_de_5);
                                               
-        System.out.println("Valor de monedas de 0.01 centavo ------>" + (int)moneda_001);
+        System.out.println("Valor de monedas de 0.01 centavo ------>" + (int) moneda01);
 
     }        
     
